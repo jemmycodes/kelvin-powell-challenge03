@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(fonts/Roboto-Light.ttf);
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+  font-family: "Roboto-Regular";
+}
+
+.intro-text {
+  padding-left: 7rem;
+  width: 60%;
+  /* margin: 0 auto; */
+  padding-block: 10rem;
+}
+
+h1 {
+  font-family: "Roboto-Bold";
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.container1 {
+  width: 100%;
+  background-color: hsla(192, 36%, 21%, 1);
+  color: white;
+}
+
+.link {
+  margin-top: 3regit initm;
+  width: 100%;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: "Roboto-Light";
+}
+
+a {
+  background: hsla(184, 68%, 53%, 1);
+  padding-block: 1rem;
+  padding-inline: 3rem;
+  /* width: 283px; */
+  border-radius: 4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: hsla(184, 73%, 10%, 1);
+  font-family: "Roboto-Bold";
+  font-size: 1.1rem;
+}
+
+.other-content {
+  background-color: white;
+  padding-block: 10rem;
+}
